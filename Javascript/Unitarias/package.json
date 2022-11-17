@@ -1,0 +1,29 @@
+{
+  "name": "pruebas-js",
+  "version": "1.0.0",
+  "description": "Una introduccion a NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack ./app.js --mode development --watch",
+    "test": "jest"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "testing",
+    "jest",
+    "unit",
+    "tests",
+    "integration",
+    "tests",
+    "e2e",
+    "tests"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.3",
+    "puppeteer": "^18.2.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.3.12"
+  }
+}
